@@ -9,11 +9,12 @@ body {
 .container {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 5%;
 }
 
 .container input {
-    color: rgb(126, 124, 124);
+    color: rgb(95, 92, 92);
 }
 
 .card {
