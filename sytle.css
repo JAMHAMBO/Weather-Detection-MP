@@ -17,15 +17,16 @@ body {
 }
 
 .card {
-    width: 65vmin;
-    height: 85vmin;
+    width: 65%;
+    max-width: 420px;
+    max-height: 650px;
+    height: 85%;
     background: linear-gradient(135deg,
             #47d8c5 0%,
             #5fc8d4 40%,
             #76a7db 75%,
             #7b73c7 100%);
     border-radius: 5%;
-
 }
 
 .searchBar {
@@ -100,7 +101,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10%;
-    margin-top: 9%;
+    margin: 10%;
 }
 
 .container4-1 {
