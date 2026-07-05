@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(44, 41, 41);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.container input {
+    color: rgb(126, 124, 124);
+}
+
+.card {
+    width: 55vmin;
+    height: 75vmin;
+    background: linear-gradient(135deg,
+            #47d8c5 0%,
+            #5fc8d4 40%,
+            #76a7db 75%,
+            #7b73c7 100%);
+    border-radius: 5%;
+
+}
+
+.searchBar {
+    width: 60%;
+    background: #ebfffc;
+    padding: 4%;
+    border: none;
+    border-radius: 999px;
+    font-size: 1rem;
+}
+
+.searchIcon {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    /* width: 6vmin;
+    height: 6vmin; */
+
+    width: 12%;
+    aspect-ratio: 1;
+    cursor: pointer;
+}
+
+.searchIcon img {
+    /* width: 2vmin; */
+    width: 50%;
+    height: auto;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 8%;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weatherPNG {
+    margin-top: 3%;
+    /* width: 40%; */
+    width: 38%;
+    max-width: 180px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vmin;
+}
+
+.temp {
+    font-size: 9vmin;
+    color: #ebfffc;
+}
+
+.location {
+    font-size: 5vmin;
+    color: #ebfffc;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin-top: 9%;
+}
+
+.container4-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    color: #ebfffc;
+}
+
+.hValue {
+    font-size: 4vmin;
+    font-weight: bold;
+}
+
+.humidity {
+    font-size: small;
+}
+
+.windSpeed {
+    font-size: small;
+}
+
+.wValue {
+    font-size: 3vmin;
+    font-weight: bold;
+}
+
+.container4-2 {
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    color: #ebfffc;
+    display: flex;
+}
+
+.dIMG {
+    width: 30%;
+    height: 30%;
+}
