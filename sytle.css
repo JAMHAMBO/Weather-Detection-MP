@@ -17,8 +17,8 @@ body {
 }
 
 .card {
-    width: 55vmin;
-    height: 75vmin;
+    width: 65vmin;
+    height: 85vmin;
     background: linear-gradient(135deg,
             #47d8c5 0%,
             #5fc8d4 40%,
